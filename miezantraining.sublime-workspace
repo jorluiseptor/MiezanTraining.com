@@ -1,0 +1,752 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ng",
+				"ng-bind	AngularJS"
+			],
+			[
+				"ng-bind",
+				"ng-bind-html	AngularJS"
+			],
+			[
+				"tog",
+				"toggleSidenav"
+			],
+			[
+				"load",
+				"loadNotes"
+			],
+			[
+				"web",
+				"webServiceSubmitNoteVote"
+			],
+			[
+				"sub",
+				"submitNoteVote"
+			],
+			[
+				"temp",
+				"templateUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "syntax php",
+		"selected_items":
+		[
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"form",
+				"phpfmt: format now"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"f",
+				"Format: Javascript"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"FTPSync: Upload current file"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git ad.",
+				"Git: Add..."
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add.",
+				"Git: Add..."
+			],
+			[
+				"upload",
+				"FTPSync: Upload current file"
+			],
+			[
+				"git ",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git add...",
+				"Git: Add..."
+			],
+			[
+				"git push cur",
+				"Git: Push Current Branch"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"brow",
+				"FTPSync: Browse"
+			],
+			[
+				"SELECT ALL",
+				"Bookmarks: Select All"
+			],
+			[
+				"SELECT",
+				"Bookmarks: Select All"
+			],
+			[
+				"br",
+				"FTPSync: Browse"
+			],
+			[
+				"brwo curr",
+				"FTPSync: Browse from current folder"
+			],
+			[
+				"bro",
+				"FTPSync: Browse"
+			],
+			[
+				"uplo",
+				"FTPSync: Upload current file"
+			],
+			[
+				"setupf",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"setup",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"upl",
+				"FTPSync: Upload current file"
+			],
+			[
+				"brow curr",
+				"FTPSync: Browse from current folder"
+			],
+			[
+				"ftyp",
+				"FTPSync: Browse from last path"
+			],
+			[
+				"",
+				"FTPSync: Browse"
+			],
+			[
+				"upload	cu",
+				"FTPSync: Upload current file"
+			],
+			[
+				"UPLOAD",
+				"FTPSync: Upload current file"
+			],
+			[
+				"ftp",
+				"FTPSync: Browse"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 237.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jorge/Projects/MiezanTraining.com"
+	],
+	"file_history":
+	[
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/share/share.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/.htaccess",
+		"/C/Users/Jorge/Projects/MiezanTraining.com/index.html",
+		"/C/Users/Jorge/Projects/DebesAlgo/debesalgo/Site.css",
+		"/C/Users/Jorge/Projects/DebesAlgo/README.md",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/index.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/images/roadzer-logo-share.jpg",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.controller.sendnote.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.controller.main.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/sendnote.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/css/roadzer.css",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/rz-note.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/default.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.directive.rznote.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.controller.home.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/rz-tag.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/rz-notes-filter.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.factory.notes.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/sendnote.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/submitcomment.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/getcomments.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/functions.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Database/Triggers.txt",
+		"/C/Users/Jorge/Projects/Roadzer.com/Database/databasestructureanddata2015-11-01.txt",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/titleanddescription.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.controller.tagnotes.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.controller.singlenote.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.controller.statenotes.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/builtinfilters.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/single-note.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/README.md",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/state-notes.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/emojione/autoload.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/emojione/emoji.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/emojione/Client.php",
+		"/C/Users/Jorge/AppData/Local/Temp/7zE4C4F.tmp/RulesetInterface.php",
+		"/C/Users/Jorge/AppData/Local/Temp/7zE4C4F.tmp/Ruleset.php",
+		"/C/Users/Jorge/AppData/Local/Temp/7zE4C4F.tmp/Emojione.php",
+		"/C/Users/Jorge/AppData/Local/Temp/7zE4C4F.tmp/Client.php",
+		"/C/Users/Jorge/AppData/Local/Temp/7zE4C4F.tmp/ClientInterface.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/tag-notes.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.factory.page.js",
+		"/Z/Projects/NetCom/AngularJS/AngularJS-Day1/hello.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/_js/myscript.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/disclamer.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/dbconnection.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/log.md",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/components/angular-moment/angular-moment.min.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/submitcommentvote.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.factory.site.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/rz-loading.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.directive.rzloading.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/likenote.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/tagnotes.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/statenotes.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.directive.rznotesfilter.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/rz-notes-list.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/singlenote.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/templates/rzapp.directive.rznoteslist.js",
+		"/C/Users/Jorge/Projects/AngularMaterial/app/index.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/img/.gitkeep",
+		"/C/Users/Jorge/Projects/AngularMaterial/app/assets/app.css",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/getstates.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/get2.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/sendmsg.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/dbconnection-prod.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/website_resources/foundation-5.5.3/index.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/website_resources/foundation-icons/foundation-icons/foundation-icons.css",
+		"/C/Users/Jorge/Projects/Roadzer.com/website_resources/foundation-icons/foundation-icons/preview.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/website_resources/foundation-5.5.3.custom/css/foundation.css",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/index.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/get2.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.singlenotecontroller.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.statenotescontroller.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.service.notes.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.directive.rztag.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.directives.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.rztag.directive.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.tagnotescontroller.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/rzapp.homecontroller.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/directives.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/controllers.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/js/app.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/controllers.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/app.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/directives.js",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/AngujarWorkshop/src/angudone/routes/home.clj",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/_includes/functions.php",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/roadzerApp/templates/default.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/roadzerApp/app.js",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/roadzerApp/templates/statenotes.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/roadzerApp/index.html",
+		"/C/Users/Jorge/Projects/Roadzer.com/Website/ftpsync.settings",
+		"/C/Users/Jorge/Projects/Roadzer.com/roadzer",
+		"/C/Users/Jorge/Projects/Roadzer/_includes/getmessages.php",
+		"/C/Users/Jorge/Projects/Roadzer/about.php",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/ProtractorLearning/spec.js",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/templates/routewithparams2.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/templates/routewithparams1.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/ProtractorLearning/conf.js",
+		"/C/Devel/nodejs/npm-cache/protractor/2.5.1/package/package.json",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/templates/routewithparamshome.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/templates/customfilters.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/webservice.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/templates/ngcloak.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/templates/builtinfilters.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/index.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/templates/default.html",
+		"/C/Users/Jorge/Projects/AngularJS_Learning/Exercise1/app/app.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"share",
+			"\n	",
+			"Roadzer",
+			"254829637891837",
+			"();\n",
+			"$rootScope",
+			"showCommentForm",
+			"vm.",
+			"getComments",
+			"\";	",
+			"default",
+			"__DIR__ . ",
+			"rz-notes-list",
+			"head",
+			"_head",
+			"### LOG ###\n",
+			" \n",
+			"time",
+			">\n",
+			"          <",
+			"$mdSidenav('left').toggle();",
+			">\n",
+			"SideNavController",
+			"NotesFactory",
+			"HomeController",
+			"ng",
+			">\n",
+			";*/\n",
+			".virtualRepeatdemoInfiniteScroll ",
+			"this",
+			"webServiceSubmitNoteVote",
+			"\"></",
+			"div",
+			"	    -ms-transform: rotate(-7deg);\n	    -webkit-transform: rotate(-7deg);\n	    transform: rotate(-7deg);",
+			">\n",
+			"license_num",
+			";\n",
+			"li",
+			"required",
+			"        </",
+			"webServicePostURL",
+			"webServiceGetURL",
+			"state",
+			"newTodo",
+			"todosCtrl",
+			"HomeController",
+			"$State ",
+			"$State",
+			"$Message",
+			"$StateCode",
+			"$License",
+			"_includes",
+			"tagnotes",
+			"return",
+			"getAvengersFailed",
+			"getAvengersComplete",
+			"		// function HomeController(NotesFactory){\n		// 	var vm = this;\n		// 	vm.results= \"test\";\n		// 	//vm.results = NotesFactory.foo; \n		// 	console.log(vm.results);\n		// 	//$scope.mydata=[{\"state\":\"VA\", \"licenseNum\":\"2384A4\"},{\"state\":\"PR\",\"license\":\"23932A\"}];\n\n		// 	/*\n		// 	$http.get('/get2.php').success(function(data){\n		// 		vm.results=data; \n		// 	});\n		// 	*/\n		// }",
+			"Test",
+			"			// var Test = {};\n			// Test.foo = \"bar\";\n			// console.log(\"factory \"+Test.foo	)\n			// return Test; ",
+			"NotesFactory",
+			"rzapp",
+			"NotesService",
+			"rztag",
+			"<",
+			"(",
+			"note",
+			"RoadzerApp",
+			"roadzerapp",
+			"directives",
+			"rz",
+			" ",
+			"getCountryIdByCode",
+			"=\"/#",
+			"builtinfilters",
+			"=\"/\">\n",
+			"builtinfilters",
+			"lenght"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "miezantraining.com",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".ht",
+				"Website\\.htaccess"
+			],
+			[
+				"css",
+				"Website\\css\\roadzer.css"
+			],
+			[
+				"send",
+				"Website\\templates\\sendnote.html"
+			],
+			[
+				"factory",
+				"Website\\js\\rzapp.factory.notes.js"
+			],
+			[
+				"rzno",
+				"Website\\templates\\rz-note.html"
+			],
+			[
+				"in",
+				"Website\\index.html"
+			],
+			[
+				"controllert",
+				"Website\\js\\rzapp.controller.tagnotes.js"
+			],
+			[
+				"rzapp",
+				"Website\\js\\rzapp.js"
+			],
+			[
+				"state",
+				"Website\\templates\\state-notes.html"
+			],
+			[
+				"sing",
+				"Website\\templates\\single-note.html"
+			],
+			[
+				"direc",
+				"Website\\js\\rzapp.directive.rznote.js"
+			],
+			[
+				"controler",
+				"Website\\js\\rzapp.controller.home.js"
+			],
+			[
+				"cont",
+				"Website\\js\\rzapp.controller.tagnotes.js"
+			],
+			[
+				"sta",
+				"Website\\templates\\state-notes.html"
+			],
+			[
+				"tag",
+				"Website\\templates\\tag-notes.html"
+			],
+			[
+				"single",
+				"Website\\templates\\single-note.html"
+			],
+			[
+				"def",
+				"Website\\templates\\default.html"
+			],
+			[
+				"rz-note",
+				"Website\\templates\\rz-note.html"
+			],
+			[
+				"singl",
+				"Website\\templates\\single-note.html"
+			],
+			[
+				"dire",
+				"Website\\js\\rzapp.directive.rznote.js"
+			],
+			[
+				"index",
+				"Website\\index.html"
+			],
+			[
+				"scrip",
+				"Website\\_js\\myscript.js"
+			],
+			[
+				"angular-moment",
+				"Website\\js\\components\\angular-moment\\angular-moment.min.js"
+			],
+			[
+				"ind",
+				"Website\\index.html"
+			],
+			[
+				"home",
+				"Website\\js\\rzapp.controller.home.js"
+			],
+			[
+				"loadin",
+				"Website\\templates\\rz-loading.html"
+			],
+			[
+				"fun",
+				"Website\\api\\functions.php"
+			],
+			[
+				"func",
+				"Website\\api\\functions.php"
+			],
+			[
+				"likeno",
+				"Website\\api\\likenote.php"
+			],
+			[
+				"htacc",
+				"Website\\.htaccess"
+			],
+			[
+				"roadzercss",
+				"Website\\css\\roadzer.css"
+			],
+			[
+				"controller",
+				"Website\\js\\rzapp.controller.tagnotes.js"
+			],
+			[
+				"sendnote",
+				"Website\\templates\\sendnote.html"
+			],
+			[
+				"inde",
+				"Website\\index.html"
+			],
+			[
+				"directiverzta",
+				"Website\\js\\rzapp.directive.rztag.js"
+			],
+			[
+				"rztag",
+				"Website\\templates\\rz-tag.html"
+			],
+			[
+				"contro",
+				"Website\\controllers.js"
+			],
+			[
+				"con",
+				"Website\\controllers.js"
+			],
+			[
+				"defa",
+				"Website\\roadzerApp\\templates\\default.html"
+			],
+			[
+				"app",
+				"Website\\roadzerApp\\app.js"
+			],
+			[
+				"indeht",
+				"Website\\roadzerApp\\index.html"
+			],
+			[
+				"ap",
+				"Website\\roadzerApp\\app.js"
+			],
+			[
+				"we",
+				"app\\webservice.html"
+			],
+			[
+				"a",
+				"app\\app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
