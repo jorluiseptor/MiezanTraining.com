@@ -31,7 +31,16 @@
 				<nav class="light-green">
 					<div class="nav-wrapper container">
 						<a href="#intro" class="logo"><img src="/img/miezanlogo.png"></a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+
 						<ul class="right hide-on-med-and-down">
+							<li><a href="#areas">Training focus</a></li>
+							<li><a href="#about">About me</a></li>
+							<li><a href="#testimonials">Testimonials</a></li>
+							<li><a class="waves-effect waves-light btn light-green accent-4" href="#contact"><i class="material-icons left">email</i> Contact me</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="#intro">Home</a></li>
 							<li><a href="#areas">Training focus</a></li>
 							<li><a href="#about">About me</a></li>
 							<li><a href="#testimonials">Testimonials</a></li>
@@ -41,24 +50,6 @@
 					</div>
 				</nav>
 			</div>
-			<!-- 			<nav>
-					<div class="nav-wrapper">
-							<a href="#!" class="brand-logo">Logo</a>
-							<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-							<ul class="right hide-on-med-and-down">
-									<li><a href="sass.html">Sass</a></li>
-									<li><a href="badges.html">Components</a></li>
-									<li><a href="collapsible.html">Javascript</a></li>
-									<li><a href="mobile.html">Mobile</a></li>
-							</ul>
-							<ul class="side-nav" id="mobile-demo">
-									<li><a href="sass.html">Sass</a></li>
-									<li><a href="badges.html">Components</a></li>
-									<li><a href="collapsible.html">Javascript</a></li>
-									<li><a href="mobile.html">Mobile</a></li>
-							</ul>
-					</div>
-			</nav> -->
 		</header>
 		
 		<main>
@@ -275,13 +266,17 @@
 
 													var offset = -63; //offset to compensate for the nav bar
 
-													$('nav a').click(function() {
+													$('nav ul a, nav .logo').click(function() {
 													    var location = $(this).attr('href');
-													    										  
+
 													    event.preventDefault();
 													    $('html,body').animate( { scrollTop:$(this.hash).offset().top+offset } , 1000);
 													    
 													});	
+
+													$(".button-collapse").sideNav({
+														closeOnClick: true // Closes side-nav on <a> clicks
+													});
 
 												  });
 											</script>
