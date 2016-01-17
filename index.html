@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="description" content="William Miezan is a physical trainer and high school physical education teacher and coach in the Washington, DC area. His areas of focus include sports conditioning, general fitness, and preparation for the FBI physical fitness test. ">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Miezan Training</title>
 		<!-- Add to homescreen for Chrome on Android -->
 		<meta name="mobile-web-app-capable" content="yes">
@@ -14,14 +13,9 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta name="apple-mobile-web-app-title" content="Miezan Training">
 		<link rel="apple-touch-icon-precomposed" href="img/ios-desktop.png">
-		<!-- Tile icon for Win8 (144x144 + tile color) -->
-		<meta name="msapplication-TileImage" content="img/touch/ms-touch-icon-144x144-precomposed.png">
-		<meta name="msapplication-TileColor" content="#3372DF">
 		<link rel="shortcut icon" href="img/favicon.png">
 		<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-		<!--
-		<link rel="canonical" href="http://www.example.com/">
-		-->
+		<link rel="canonical" href="http://www.miezantraining.com/">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
 		<!--Import Google Icon Font-->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -38,7 +32,9 @@
 					<div class="nav-wrapper container">
 						<a href="#intro" class="logo"><img src="/img/miezanlogo.png"></a>
 						<ul class="right hide-on-med-and-down">
-							<li><a href="sass.html">Sass</a></li>
+							<li><a href="#areas">Training focus</a></li>
+							<li><a href="#about">About me</a></li>
+							<li><a href="#testimonials">Testimonials</a></li>
 							<li><a class="waves-effect waves-light btn light-green accent-4" href="#contact"><i class="material-icons left">email</i> Contact me</a></li>
 						</ul>
 						
@@ -66,7 +62,7 @@
 		</header>
 		
 		<main>
-		<div class="section"  id="intro-section">
+		<div class="section"  id="intro">
 			<div class="container">
 				<div class="row hero" >
 					<div class="col s12 m12 l8">
@@ -80,7 +76,7 @@
 				</div>
 			</div>
 			</div> <!-- section -->
-			<div class="section light-green" id="areas-section" data-anchor="areas">
+			<div class="section light-green" id="areas">
 				<div class="container">
 					<div class="row">
 						<div class="col s12">
@@ -92,7 +88,7 @@
 						<div class="col s12 m4">
 							<div class="card hoverable">
 								<div class="card-image waves-effect waves-block waves-light">
-									<img class="" src="img/situps.jpg">
+									<img class="" src="img/situps-540.jpg">
 									<span class="card-title">FBI Physical Fitness Test</span>
 								</div>
 								<div class="card-content">
@@ -127,7 +123,7 @@
 					</div>
 				</div>
 				</div> <!-- section -->
-				<div class="section" id="about-section" data-anchor="about">
+				<div class="section" id="about">
 					<div class="container">
 						<div class="row"><div class="col s12 m8">
 							<h3>About William</h3>
@@ -163,22 +159,23 @@
 						</div></div>
 					</div>
 					</div> <!-- section -->
-					<div class="section light-green accent-3" id="quote-section">
+					<div class="section light-green accent-3" id="quote">
 						<div class="container">
 							The human body is an amazing apparatus. With the right amount of training and hard work you can do almost anything you want. - William
 						</div>
 					</div>
-					<div class="section" id="testimonials-section">
+					<div class="section" id="testimonials">
 						<div class="container">
 							<h3>Testimonials</h3>
 							<div class="row">
 								<div class="col m6">
 									<div class="card hoverable light-green lighten-1">
-										<div class="quote-image">
-											
+										<div class="quote-icon hoverable z-depth-2 light-green accent-4">
+											<i class="material-icons">format_quote</i>
 										</div>
 										<div class="card-content">
-											<span class="card-title">Lenese</span>
+
+											<span class="card-title">Lenisse E.</span>
 											<p>
 												"Coach William" as I fondly like to call him is truly an inspiration!
 											</p><br>
@@ -198,8 +195,8 @@
 								</div>
 								<div class="col m6">
 									<div class="card hoverable light-green lighten-1">
-										<div class="quote-image">
-											
+										<div class="quote-icon hoverable z-depth-2 light-green accent-4">
+											<i class="material-icons">format_quote</i>
 										</div>
 										<div class="card-content">
 											<span class="card-title">Jorge S.</span>
@@ -221,7 +218,7 @@
 										</div> <!-- container -->
 										</div> <!-- section -->
 										</div> <!-- section -->
-										<div class="section light-green lighten-4" id="contact-section">
+										<div class="section light-green lighten-4" id="contact">
 											<div class="container">
 												<div class="row">
 													<div class="col s12">
@@ -273,5 +270,20 @@
 											<!--Import jQuery before materialize.js-->
 											<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 											<script type="text/javascript" src="js/materialize.min.js"></script>
+											<script type="text/javascript">
+												  $(document).ready(function(){
+
+													var offset = -63; //offset to compensate for the nav bar
+
+													$('nav a').click(function() {
+													    var location = $(this).attr('href');
+													    										  
+													    event.preventDefault();
+													    $('html,body').animate( { scrollTop:$(this.hash).offset().top+offset } , 1000);
+													    
+													});	
+
+												  });
+											</script>
 										</body>
 									</html>

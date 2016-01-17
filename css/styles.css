@@ -5,46 +5,49 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-#intro-section {
+h1,h2,h3 {
+  color:#303E1F;
+}
+#intro {
   background: url('../img/bg-2048.jpg') no-repeat top center;
   height: 90vh
 }
 
-#intro-section p span {
+#intro p span {
     background-color: rgba(255, 255, 255, 0.38);
 }
 
-#about-section {
+#about {
   background: url('../img/william2_2048.jpg') no-repeat top center;
 }
-#testimonials-section {
+#testimonials {
   background: url('../img/field-2048.jpg') no-repeat top center;
 }
 
-#about-section, #intro-section, #testimonials-section { 
+#about, #intro, #testimonials { 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-#quote-section {
+#quote {
   font-weight: 400;
   font-size: 3rem;
   font-style: oblique;
   padding: 1em 0;
 }
-#about-section .collapsible-body, #testimonials-section .card {
+#about .collapsible-body, #testimonials .card {
   opacity: .9;
 }
-#testimonials-section .card {
-    max-height: 460px;
+#testimonials .card .card-content {
+    max-height: 350px;
     overflow-y: scroll;
 }
-#testimonials-section .card::-webkit-scrollbar { 
+#testimonials .card .card-content::-webkit-scrollbar { 
   display: none;
 }
 .logo img {
-  margin-top: 10px;    
+  margin-top: 12px;    
 }
 
 main {
@@ -63,3 +66,19 @@ nav .btn i {
 .fix-icon {
   position:relative; top:6px;
 }
+
+.quote-icon {
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+    position: relative;
+    top: -25px;
+}
+.quote-icon i {
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+
