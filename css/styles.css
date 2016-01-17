@@ -14,7 +14,8 @@ h1,h2,h3 {
 }
 
 #intro p span {
-    background-color: rgba(255, 255, 255, 0.38);
+    background-color: #8bc34a;
+    opacity: .9;
 }
 
 #about {

@@ -60,7 +60,7 @@
 						<h1 class="">Training by William Miezan</h1>
 						<p class="flow-text">
 							<span>
-								My name is William Miezan. I’m not a coach, I’m a trainer! My goal is to help you reach your physical fitness potential. I have a varied area of focus.
+								My name is William Miezan. I’m not a coach, I’m a trainer! My goal is to help you reach your physical fitness potential. I focus on various fitness areas.
 							</span>
 						</p>
 					</div>
@@ -218,25 +218,25 @@
 													</div>
 												</div>
 												<div class="row">
-													<form class="col s12 m8">
+													<form class="col s12 m8" method="post" action="sendmail.php">
 														<hr>
 														<div class="row">
 															<div class="input-field col s12 m6">
-																<input placeholder="Your name" id="name" type="text" class="validate" required>
+																<input id="name" name="name" type="text" class="validate" required>
 																<label for="name">Name</label>
 															</div>
 															<div class="input-field col s12 m6">
-																<input placeholder="Email" id="email" type="text" class="validate" required>
+																<input name="email" id="email" type="email" class="validate" required>
 																<label for="email">Email</label>
 															</div>
 														</div>
 														<div class="row">
 															<div class="input-field col s12">
-																<textarea id="message" class="materialize-textarea"></textarea>
+																<textarea id="message" name="message" class="materialize-textarea" required></textarea>
 																<label for="message">Message</label>
 															</div>
 														</div>
-														<button class="btn waves-effect waves-light light-green accent-4" type="submit" name="action">Submit
+														<button class="btn waves-effect waves-light light-green accent-4" name="submit" id="submit" value="Send" type="submit">Submit
 														<i class="material-icons right">send</i>
 														</button>
 													</form>
@@ -277,6 +277,28 @@
 													$(".button-collapse").sideNav({
 														closeOnClick: true // Closes side-nav on <a> clicks
 													});
+
+													//submit form
+													//send form info
+													$("form #submit").click(function(){
+														
+														// Set up an event listener for the contact form.
+														$('form').submit(function(event) {
+														    // Stop the browser from submitting the form.
+														    event.preventDefault();
+
+															$.ajax({
+															    type: "POST",
+															    url: $('form').attr("action"),
+															    data: $('form').serialize(),
+															    success: function(){
+																	//tell user that form is sent
+																	 Materialize.toast('Your message has been sent!', 4000) // 4000 is the duration of the toast
+															    }
+															});
+														});
+
+													}); //send form
 
 												  });
 											</script>
