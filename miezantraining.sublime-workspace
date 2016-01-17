@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
 				"ng",
 				"ng-bind	AngularJS"
 			],
@@ -35,6 +39,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 14518,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n	\"folders\":\n	[\n		{\n			\"path\": \".\"\n		}\n	]\n}\n",
+			"file": "miezantraining.com",
+			"file_size": 45,
+			"file_write_time": 130967576929068349,
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 1166,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -43,10 +74,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 58.0,
-		"last_filter": "syntax php",
+		"height": 392.0,
+		"last_filter": "lo",
 		"selected_items":
 		[
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
 			[
 				"syntax php",
 				"Set Syntax: PHP"
@@ -54,10 +101,6 @@
 			[
 				"word",
 				"Word Wrap: Toggle"
-			],
-			[
-				"html",
-				"HTMLBeautify"
 			],
 			[
 				"set html",
@@ -94,10 +137,6 @@
 			[
 				"f",
 				"Format: Javascript"
-			],
-			[
-				"h",
-				"HTMLBeautify"
 			],
 			[
 				"inst",
@@ -232,7 +271,7 @@
 				"Word Wrap: Toggle"
 			]
 		],
-		"width": 488.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -256,6 +295,13 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jorge/Projects/MiezanTraining.com/js/jquery.fullPage.min.js",
+		"/C/Users/Jorge/Projects/MiezanTraining.com/templates/blog/index.html",
+		"/C/Users/Jorge/Projects/MiezanTraining.com/entry.html",
+		"/C/Users/Jorge/Projects/MiezanTraining.com/miezantraining.com",
+		"/C/Users/Jorge/Desktop/dw/contact.html",
+		"/C/Users/Jorge/Desktop/dw/script.js",
+		"/C/Users/Jorge/Desktop/indextst.html",
 		"/C/Users/Jorge/Projects/Roadzer.com/Website/api/share/share.php",
 		"/C/Users/Jorge/Projects/Roadzer.com/Website/.htaccess",
 		"/C/Users/Jorge/Projects/MiezanTraining.com/index.html",
@@ -369,7 +415,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -384,6 +430,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"								  	<",
+			"contact",
+			"fullPage.",
+			"images",
+			"images/",
 			"share",
 			"\n	",
 			"Roadzer",
@@ -478,14 +529,101 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11537,
+								11537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5865.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "miezantraining.com",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								890,
+								890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -527,10 +665,10 @@
 		"height": 118.0
 	},
 	"pinned_build_system": "",
-	"project": "miezantraining.com",
+	"project": "miezantraining.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -744,7 +882,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
