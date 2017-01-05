@@ -269,12 +269,16 @@
 														<h5>Send me a message</h5>
 														<div class="row">
 															<div class="input-field col s12 m6">
-																<input id="name" name="name" type="text" class="validate" required>
+																<input id="name" name="name" type="text" required>
 																<label for="name">Name</label>
 															</div>
 															<div class="input-field col s12 m6">
-																<input name="email" id="email" type="email" class="validate" required>
+																<input name="email" id="email" type="email" required>
 																<label for="email">Email</label>
+															</div>
+															<div class="hidden">
+																<!--this is a spam filter. if filled, it's spam-->
+																<input name="body" id="body" type="text">
 															</div>
 														</div>
 														<div class="row">
