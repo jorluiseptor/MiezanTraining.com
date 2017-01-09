@@ -1,10 +1,22 @@
 <?php
-    // My modifications to mailer script from:
-    // http://blog.teamtreehouse.com/create-ajax-contact-form
-    // Added input sanitizing to prevent injection
+    //this script will validate form msgs agains google recaptcha and will send the email if valid.
 
-    // Only process POST reqeusts.
-    if ($_SERVER["REQUEST_METHOD"] == "POST" && empty($_POST["body"])) {
+    // validate against spammers
+        //get recaptcha value generated randomly when filling the form
+        $recaptchaResponse = $_POST["g-recaptcha-response"];
+        //recaptcha key given at https://www.google.com/recaptcha/admin#site/ 
+        $secretKey = "6LcyEBEUAAAAAPb8_r7jmCbP1RYB9xb4c_jR5g4V";
+        $recaptchaURL= "https://www.google.com/recaptcha/api/siteverify";
+        //call Google Recaptcha, pass the repsose and validate
+        $validationResponse = file_get_contents($recaptchaURL . "?secret=" . $secretKey . "&response=" . $recaptchaResponse);
+        //decode JSON
+        $validationResponse = json_decode($validationResponse); 
+        //you can access the object values by this format, e.g. $validationResponse->success        will return 1.
+
+    // Only process POST requests where the recaptcha has been validated.
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && $validationResponse->success) {
+
+
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);

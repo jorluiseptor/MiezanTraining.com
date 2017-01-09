@@ -64,8 +64,9 @@
 		    "http://www.facebook.com/wmiezan"
 		  ]
 		}
-		</script>
-
+	</script>
+	<!--Google Recaptcha-->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -332,29 +333,22 @@
 				<input name="email" id="email" type="email" required>
 				<label for="email">Email</label>
 			</div>
-			<div id='body'>
-				<!--this is a spam filter. if filled, it's spam-->
-				<label for="body">Do not complete this field</label>
-				<input name="body" id="body" type="text">
+		</div>
+		<div class="row">
+			<div class="input-field col s12">
+				<textarea id="message" name="message" class="materialize-textarea" required></textarea>
+				<label for="message">Message</label>
 			</div>
-			<script>
-				//hide honeypot field
-				(function () {
-					var e = document.getElementById("body");
-					e.parentNode.removeChild(e);
-				})();
-			</script>
-</div>
-<div class="row">
-	<div class="input-field col s12">
-		<textarea id="message" name="message" class="materialize-textarea" required></textarea>
-		<label for="message">Message</label>
-	</div>
-</div>
-<button class="btn waves-effect waves-light light-green accent-4" name="submit" id="submit" value="Send" type="submit">Submit
-														<i class="material-icons right">send</i>
-														</button>
-</form>
+		</div>
+		<div class="row">
+			<div class="input-field col s12 recaptcha">
+				<div class="g-recaptcha" data-sitekey="6LcyEBEUAAAAAMxFagFPIFD7c5lbjgjdvkdGFz2A"></div>
+			</div>
+		</div>
+		<button class="btn waves-effect waves-light light-green accent-4" name="submit" id="submit" value="Send" type="submit">Submit
+			<i class="material-icons right">send</i>
+		</button>
+	</form>
 </div>
 </div>
 
@@ -367,10 +361,10 @@
 		<div class="container">
 			<p>
 				<i class="material-icons fix-icon" style="">favorite</i> This site was made with much appreciation for William by
-<a class="grey-text text-lighten-4" target="_blank" href="https://facebook.com/jorge.sepulveda">Jorge Sepulveda</a>.
-</p>
-</div>
-</div>
+				<a class="grey-text text-lighten-4" target="_blank" href="https://facebook.com/jorge.sepulveda">Jorge Sepulveda</a>.
+			</p>
+		</div>
+	</div>
 </footer>
 
 
